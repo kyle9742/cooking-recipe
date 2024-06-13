@@ -6,11 +6,13 @@ import Search from "./pages/search/Search";
 import Recipe from "./pages/recipe/Recipe";
 
 import "./App.css";
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
+      <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/create" element={<Create />} />
