@@ -1,6 +1,6 @@
 import './Create.css'
 
-const create = () => {
+const Create = () => {
   return (
     <div>
       크리에이트
